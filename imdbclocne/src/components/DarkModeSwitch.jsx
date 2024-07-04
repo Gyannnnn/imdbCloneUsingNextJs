@@ -11,9 +11,9 @@ export default function DarkModeSwitch() {
   return (
     <div>
       {currentTheme === "dark" ? (
-        <IoSunny className="text-2xl mr-4 hover:text-blue-600 hover:cursor-pointer" onClick={() => setTheme('light')} />
+        <IoSunny className="text-2xl mr-4 hover:text-blue-600 hover:cursor-pointer font-bold" onClick={() => setTheme('light')} />
       ) : (
-        <CiCloudMoon className="text-2xl mr-4 hover:text-blue-600 hover:cursor-pointer" onClick={() => setTheme('dark')} />
+        <CiCloudMoon className="text-2xl mr-4 hover:text-blue-600 hover:cursor-pointer font-bold" onClick={() => setTheme('dark')} />
       )}
     </div>
   );
