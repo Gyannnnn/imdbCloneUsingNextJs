@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Results({ results }) {
   return (
-    <div className="w-[80vw] min-h-[100vh]  grid grid-cols-4 gap-2 pt-3 pb-3 justify-items-center ">
+    <div className="w-[80vw] min-h-[100vh]  grid grid-cols-4 gap-2 pt-10 pb-3 justify-items-center ">
       {results.map((result) => (
         <div
           className="w-60 min-h-96 bg-zinc-600 rounded-md p-1"

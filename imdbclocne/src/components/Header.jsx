@@ -16,17 +16,19 @@ export default function Header() {
         <div>
           <DarkModeSwitch />
         </div>
-        <Link href="/">
-          <span className="sm:hidden border-2  border-blue-600 px-4 py-1 rounded-md hover:bg-blue-600 font-extrabold">
-            IMXD
-          </span>
-          <div className="hidden sm:block">
-            <span className="mr-2 border-2  border-blue-600 px-4 py-1 rounded-md hover:bg-blue-600 font-extrabold">
+        <div>
+          <Link href="/">
+            <span className="sm:hidden border-2  border-blue-600 px-4 py-1 rounded-md hover:bg-blue-600 font-extrabold">
               IMXD
             </span>
-            <span className="font-bold">MovieApp</span>
-          </div>
-        </Link>
+            <div className="hidden sm:block">
+              <span className="mr-2 border-2  border-blue-600 px-4 py-1 rounded-md hover:bg-blue-600 font-extrabold">
+                IMXD
+              </span>
+              <span className="font-bold">MovieApp</span>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );
